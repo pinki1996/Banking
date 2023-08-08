@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Banking Web Page</title>
+</head>
+<body>
+    <div class="login-container">
+       <form class="form">
+            <input type="text" name="username" placeholder="Enter User Name" id="username"/>
+            <input type="password" name="password" placeholder="Enter Your Password" id="password"/>
+            <button type="submit" id="submitbtn">Sign In</button>
+        </form>
+            <div class="other-link">
+                <span><a href="signup.html">Sign Up</a></span>
+                <a href="aboutus.html"><span id="about">About Us</span></a>
+                <a href="contactus.html"><span>Contact Us</span></a>
+            </div>
+        
+    </div>
+
+    <!-- Navigation Bar -->
+
+    <nav class="nav">
+        <div class="account-nav">
+            <!-- <button  id="transaction">Transaction Page</button> -->
+            <a   id="transaction">Transaction Page</a>
+            <!-- <button  id="account">Account Page</button> -->
+            <a   id="account">Account Page</a>
+        </div>
+        <div class="logged-time">
+            <a id="logged-user"></a>
+            <a id="date"></a>
+        </div>
+    </nav>
+
+
+    <!-- Account Section -->
+
+    <main class="account-info" id="account-info">
+        <div class="account-details" id="account-details">
+            <h3>Account Information</h3>
+            <p>
+                <span id="firstname_label" class="account-label">First Name: </span>
+                <span id="firstname_input"></span>
+            </p>
+            <p>
+                <span id="lastname_label" class="account-label">Last Name: </span>
+                <span id="lastname_input"></span>
+            </p>
+            <p>
+            
+                <span id="username_label" class="account-label">User Name: </span>
+                <span id="username_input"></span>
+            </p>
+            <p>
+                <span id="accountno_label" class="account-label">Account Number: </span>
+                <span id="accountno_input"></span>
+            </p>
+            <p>
+                <span id="opendate_label" class="account-label">Opening Date: </span>
+                <span id="opendate_input"></span>
+            </p>
+            <p>
+                <span id="custumerid_label" class="account-label">Custumer Id: </span>
+                <span id="custumerid_input"></span>
+            </p>
+            <p>
+                <span id="accounttype_label" class="account-label">Account Type: </span>
+                <span id="accounttype_input" class="account-input"></span>
+            </p>
+            <p>
+                <span id="status_label" class="account-label">Status: </span>
+                <span id="status_input"></span>
+            </p>
+            <p>
+                <span id="ifsc_label" class="account-label">IFSC Number: </span>
+                <span id="ifsc_input"></span>
+            </p>
+            <p>
+                <span id="dob_label" class="account-label">Date Of Birth: </span>
+                <span id="dob_input" class="account-input"></span>
+            </p>
+            <p>
+                <span id="password_label" class="account-label">Password: </span>
+                <span id="password_input"></span>
+            </p>
+            <p>
+                <span id="phoneno_label" class="account-label">Phone No: </span>
+                <span id="phoneno_input"></span>
+            </p>
+        </div>
+
+        <div class="transaction-detais" id="transaction-detais">
+            <h3>Transactions Information</h3>
+            <h4>Total Balance: <span id="totalbalance"></span> </h4>
+           <div id="transaction-container">
+            <table>
+                <tr>
+                    <th>Sr. No.</th>
+                    <th>Date & time</th>
+                    <th>Transaction</th>
+                    <th>Type</th>
+                    <th>Description</th>
+                </tr>
+                <tbody id="tbody">
+                    
+                </tbody>
+            </table>
+           </div>
+        </div>
+       
+    </main>
+    <div id="timer"><p>You will be logged out in <span id="labelTimer"></span></p></div>
+    
+<script src="main.js"></script>    
+</body>
+</html>

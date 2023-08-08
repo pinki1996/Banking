@@ -1,0 +1,221 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+}
+body{
+    background-color: wheat;
+}
+.login-container{
+    width: 100%;
+    margin: 1rem auto;
+    opacity: 100;
+    
+    
+}
+form{
+    float: left;
+}
+label{
+    display: inline-block;
+    width: 40%;
+}
+input{
+    text-decoration: none;
+    font-size: 1.4rem;
+    margin-left: 0.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+#submitbtn{
+    background-color:blue;
+    font-size: 1.5rem;
+    padding: 0.2rem 0.5rem;
+    color: white;
+    margin-left: 2rem;
+    border-radius: 1rem;
+}
+
+.other-link{
+    float: right;
+    font-size: 1.5rem;
+}
+a{
+    text-decoration: none;
+    margin-right:1.5rem;
+    color: black;
+}
+#logged-user{
+    color: brown;
+}
+#about{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.nav{
+    width: 100%;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0;
+}
+
+.account{
+    text-decoration: none;
+    border: none;
+    color: black;
+}
+
+#transaction{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+#date{
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+.nav-bar{
+    width: 100%;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    margin-top: 2rem;
+}
+.account-info{
+    width: 100%;
+    margin-top: 2rem;
+    font-size: 2rem;
+    overflow-y: auto;
+    display: flex;
+    justify-content: space-around;
+    opacity: 0;
+}
+.account-details{
+    width: 50%;
+    font-size: 1.8rem;
+    background-color: white;
+    border: 1px solid white;
+    margin-left: 2rem;
+    padding: 1rem 1rem;
+    opacity: 0;
+}
+.account-label{
+    color: brown;
+}
+.transaction-detais{
+    width: 90%;
+    font-size: 1.8rem;
+    background-color: white;
+    border: 1px solid white;
+    padding: 2rem 1rem;
+    margin-left: 2rem;
+}
+
+h3,h1{
+    text-align: center;
+}
+#account, #transaction{
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+}
+h4{
+    float: right;
+}
+h5{
+    text-align: center;
+    font-size: 1.8rem;
+}
+#totalbalance{
+    color: blue;
+    margin-bottom: 2rem;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td{
+    border: 0.5px solid black;
+    text-align: center;
+}
+th{
+    font-size: 1.8rem;
+    color: brown;
+}
+td{
+    font-size: 1.5rem;
+}
+.contact-page{
+    width: 90%;
+    font-size: 1.8rem;
+    background-color: white;
+    border: 1px solid white;
+    padding: 2rem 1rem;
+ 
+}
+.contactForm{
+    width: 50%;
+}
+.contact-info{
+    width: 100%;
+    margin-top: 2rem;
+    overflow-y: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contactus{
+    float: right;
+    font-size: 1.5rem;
+    margin-right: 2.5rem;
+}
+   
+#contactBtn{
+    text-align: center;
+    background-color:blue;
+    font-size: 1.5rem;
+    padding: 0.2rem 0.5rem;
+    color: white;
+    border-radius: 1rem;
+    margin-left: 8rem;
+    margin-top: 2rem;
+}
+.signUpform{
+    width: 100%;
+    text-align: center;
+}
+.aboutus{
+    font-size: 1.5rem;
+}
+img{
+    float: left;
+    margin-right: 2rem;
+}
+.signup-page{
+    width: 40%;
+    font-size: 1.5rem;
+    background-color: white;
+    border: 1px solid white;
+    padding: 2rem 1rem;
+}
+.signUpBtn{
+    text-align: center;
+    background-color:blue;
+    font-size: 1.5rem;
+    padding: 0.2rem 0.5rem;
+    color: white;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+button a{
+    margin-right: 0.2rem;
+    text-decoration: none;
+    color: white;
+}
+#timer{
+   text-align: right;
+   font-size: 1.2rem;
+    opacity: 0;
+    margin-top: 1rem;
+}
